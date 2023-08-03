@@ -1,0 +1,98 @@
+
+body{
+    background-color: rgb(255, 255, 255);
+    
+}
+header{
+   background-color: gold;
+    position: relative;
+    justify-content: space-around;
+}
+
+#icon{
+    position: relative;
+    width: 200px;
+    height: auto;
+}
+
+li{
+    
+    display: inline;
+    bottom: 85px;
+    position: relative;
+    left: 85%;
+    color: rgb(255, 255, 255);
+    
+}
+a:visited{
+    color: black;
+}
+a:link{
+    color: black;
+}
+a:hover{
+    color: black;
+}
+a:active{
+    color: black;
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 500px;
+    position: relative;
+    left: 450px;
+
+
+    
+}
+p.in{
+    font-size: xx-large;
+    margin: 20px;
+}
+p.em{
+    font-size: xx-large;
+    margin: 20px;
+}
+p.tel{
+    font-size: xx-large;
+    margin: 20px;
+}
+#ava{
+    text-align: center;
+    font-size: 300%;
+}
+#ea{
+    width: 100px;
+    margin-left: 30%;
+    
+}
+#eb{
+    width: 100px;
+    
+}
+#ec{
+    width: 100px;
+}
+#ed{
+    width: 100px;
+}
+#ee{
+    width: 100px;
+}
+#deixe{
+    left: 10%;
+    font-size: 20px;
+}
+#comen{
+    left: 100px;
+    width: 1000px;
+    height: 100px;
+ align-items: center;
+}
+
+footer{
+    background-color: rgb(255, 217, 0);
+    width:30%;
+}

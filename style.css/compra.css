@@ -1,0 +1,95 @@
+h1{
+    background-color: gold;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+nav{
+text-decoration: none;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    
+}
+header{
+margin:0 10px;
+background-color: gold;
+}
+#icon{
+    position: relative;
+    width: 150px;
+    height: auto;
+    margin-left: 28px;
+}
+menu li a{
+text-decoration: none;
+}
+li{
+    margin:0 10px;
+    display: inline;
+    bottom: 85px;
+    position: relative;
+    left: 70%;
+    color: rgb(255, 255, 255);
+    
+}
+a:visited{
+    color: black;
+}
+a:link{
+    color: black;
+}
+a:hover{
+    color: black;
+}
+a:active{
+    color: black;
+}
+main{
+    background-color: rgb(255, 255, 255);
+    width: 1000px;
+    height: 1000px;
+    position: relative;
+    left: 450px;
+
+    
+}
+main{
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    height: 100%;
+    position: relative;
+    left: 15%;
+}
+#local{
+    width: 300px;
+    margin-left: 39%;
+
+}
+form{
+    
+}
+h3{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+input{
+    border-radius: 100px;
+}
+footer{
+    padding-top: 100px;
+    height: 100pt;
+    background-color: rgb(255, 187, 0);
+    align-items: center;
+   text-align: center;
+   
+
+}
+
+p{
+    font-size: 95px;
+}

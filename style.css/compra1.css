@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+header {
+    background-color: gold;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.menu li {
+    display: inline-block;
+    margin: 0 10px;
+
+}
+.menu li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+img {
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+body{
+background-image:url(img/rua-movimentada-cidade-desfocada-a-luz-do-dia.jpg) ;
+}
+.texto {
+    display: flex;
+    align-items: center;
+}
+input{
+    border-radius: 100px;
+   
+}
+article{
+margin-top:335px;
+       display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 6px; /* Ajuste a altura conforme necessário */
+  
+      
+}
+
+
+.cor{
+background-color: gold;
+width:420px;
+border-radius:15px ;
+
+}
+
+
+
+footer {
+    background-color: orange;
+    margin-top: 429px;
+   bottom:100px ;
+    padding: 39px;
+    width: 1271px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.rodape{
+text-align: center;
+}
+.main{
+bottom:100px ;
+}

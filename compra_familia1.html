@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pacote Familia</title>
+<link rel="stylesheet" href="style.css/compra1.css">
+<style>
+body{
+background-image:url(img/wepik-export-20230706004750UJzP.png) ;
+position: absolute;
+position: relative;
+}
+</style>
+</head>
+<body>
+    <header>
+        <div class="texto">
+            <img src="icons/pngwing.com-removebg-preview.png" id="logotipo">
+            <h1>Agência de viagens</h1>
+        </div>
+        <nav>
+            <div class="menu">
+
+
+                <ul>
+                    <li><a href="login.html">Entrar</a></li>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre nós</a></li>
+                    <li><a href="#">Ajuda</a></li>
+                </ul>
+            </div>
+
+        </nav>
+
+    </header>
+    <div class="arrumo">
+    <article>
+       <div class="cor">
+        <form>
+            
+            <br>
+            <label for="nome">Nome:</label><br>
+            <input type="text" ><br><br>
+            <label for="sobrenome">Sobrenome:</label><br>
+            <input type="text"><br><br>
+            <label for="pais">País de origem:</label><br>
+            <input type="text"><br><br>
+            <label for="CPF">CPF:</label><br>
+            <input type="text"><br><br>
+            <label for="seSxo"></label><br>
+            <input type="radio" id="M" name="sexo1">
+            <label for="M">Homem</label><br>
+            <input type="radio" id="F" name="sexo1">
+            <label for="F">Mulher</label><br><br>
+            <label for="idade">Idade:</label><br>
+            <input type="number" max="120">
+            <hr>
+            <label for="cartao"> Numero do cartao:</label><br>
+            <input type="text"><br><br>
+            <br>
+            <input type="button" id="Compra" value="Comprar" onclick="ccclick()">
+            
+        </form>
+       </div>
+        <script>
+            function ccclick (){
+                var button = document.getElementById('compra');
+                button.style.backgroundColor = "green";
+                 button.value = "Compra Realizada";
+            }
+
+        </script>
+        </article>    
+    </div>
+    <main>
+    
+    </main>
+    <footer>
+        <div class="rodape">
+        <p>Todos os direitos reservados.Encontre as melhores passagens e viaje com conforto e segurança.</p>
+        </div>
+    </footer>
+</body>
+</html>
